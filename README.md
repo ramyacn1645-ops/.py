@@ -7,7 +7,8 @@ if(num%2==0):
     else:
        print(num,"is even number ans not divisible by 5")
 else:
-    print(num,"is odd number")
+ 
+print(num,"is odd number")
 
 
 
