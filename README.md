@@ -27,4 +27,12 @@ class Rectangle:
          return self.width*self.height
     def calculate_perimeter(self):
          return 2*(self.width+self.height)
+
+# Vote eligibility
+from datetime import date
+Name = input("Enter name:")
+Birth_year = int(input("enter the birth of the person "))
+today_date = date.today()
+current_year = today_date.year
+
     
