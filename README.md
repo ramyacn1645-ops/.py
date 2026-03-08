@@ -34,6 +34,11 @@ Name = input("Enter name:")
 Birth_year = int(input("enter the birth of the person "))
 today_date = date.today()
 current_year = today_date.year
+age = current_year - Birth_year
+if age > 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
 
 
     
