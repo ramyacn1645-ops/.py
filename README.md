@@ -29,6 +29,7 @@ class Rectangle:
          return 2*(self.width+self.height)
 
 # Vote eligibility
+# date is imported from datetime module
 from datetime import date
 Name = input("Enter name:")
 Birth_year = int(input("enter the birth of the person "))
